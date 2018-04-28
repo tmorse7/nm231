@@ -1,0 +1,110 @@
+/*
+Tristan Morse
+NM 231
+Tuesday, April 10th, 2018
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+    background-image: url("/images/background-wip.png");
+}
+
+#screen {
+    margin: 0 auto;
+    width: 600px;
+    height: 640px;
+    background-color: purple;
+    position: relative;
+    background-image: url("/images/space.jpeg");
+    border: 1px solid white;
+}
+
+#moon {
+    background-image: url("/images/moonSurface.png");
+    margin: 0 auto;
+    width: 600px;
+    height: 100px;
+    position: relative;
+    top: 540px;
+}
+
+#topWormHole {
+    background-image: url("/images/wormHole.png");
+    width: 200px;
+    height: 100px;
+    position: relative;
+    left: 200px;
+    transform: rotate(180deg);
+}
+
+#bottomWormHole {
+    background-image: url("/images/wormHole.png");
+    width: 200px;
+    height: 100px;
+    position: relative;
+    top: 330px;
+    margin: 0 auto;
+}
+
+#title {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-size: 80px;
+    margin: 0;
+    color: white;
+}
+
+#buttonConsole {
+    width: 430px;
+    height: 330px;
+    margin: 0 auto;
+}
+
+.button {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    float: left;
+}
+
+.bigButtonText {
+    font-family: 'Audiowide', cursive;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-size: 50px;
+}
+
+.miniButton {
+    margin-left: 33px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    float: left;
+}
+
+.littleButtonText {
+    font-family: 'Audiowide', cursive;
+    margin: 0;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+#spaceMan {
+    position: absolute;
+    top: 490px;
+    left: 250px;
+    width: 100px;
+    height: 100px;
+}

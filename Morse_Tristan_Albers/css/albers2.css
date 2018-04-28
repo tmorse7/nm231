@@ -1,0 +1,108 @@
+/*
+Tristan Morse
+Wednesday, March 7th, 2018
+NM 231
+*/
+
+body {
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rebeccapurple;
+    text-align: center;
+    padding: 20px;
+}
+
+.pages {
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    margin: 10px;
+    font-size: 30px;
+    padding: 5px;
+}
+
+.pages:hover {
+    color: yellow;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#container {
+    margin: 0 auto;
+    width: 900px;
+    height: 900px;
+}
+
+.boxSet {
+    width: 100%;
+    height: 300px;
+}
+
+#miniBoxSet1 {
+    width: 262px;
+    height: 100%;
+}
+
+#miniBoxSet2 {
+    position: relative;
+    width: 262px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#miniBoxSet3 {
+    position: relative;
+    width: 262px;
+    height: 100%;
+    float: right;
+}
+
+.box {
+    width: 175px;
+    height: 175px;
+}
+
+.lightBox {
+    background-color: rgb(165,109,240);
+    position: relative;
+}
+
+.darkBox {
+    background-color: rgb(78,37,131);
+    position: relative;
+    left: 87.5px;
+    top: -87.5px;
+}
+
+.middleBox {
+    position: relative;
+    width: 87.5px;
+    height: 87.5px;
+}
+
+.miniBox1 {
+    background-color: rgb(121,73,185);
+}
+
+.miniBox2 {
+    background-color: rgb(50,16,123);
+}
+
+.miniBox3 {
+    background-color: rgb(87,44,142);
+}
+
+.aboutLink {
+    padding-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+}

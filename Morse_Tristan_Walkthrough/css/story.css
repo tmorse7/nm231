@@ -1,0 +1,50 @@
+/*
+Tristan Morse
+2/1/18
+NM 231
+*/
+
+body {
+    background-color: #2f223a;
+}
+
+p {
+    color: white;
+    text-align: center;
+    padding: 1%;
+    padding-left: 2%;
+    padding-right: 3%;
+    font-family: sans-serif;
+    line-height: 1.7;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+    padding-top: 1%;
+    padding-bottom: 3%;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.menu {
+    position: relative;
+    margin-top: 15%;
+    margin-left: 30%;
+    margin-right: 30%;
+    border-style: solid;
+    border-color: purple;
+    border-width: thick;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+    padding: .5%;
+    padding-right: 8%;
+}
+
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}

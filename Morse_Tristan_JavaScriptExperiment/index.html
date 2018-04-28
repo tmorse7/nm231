@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<!--
+Tristan Morse
+NM 231
+Tuesday, April 10th, 2018
+-->
+
+<html>
+    <head>
+        <title>Moon Jumper</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css"/>
+        <script src="scripts/script.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    </head>
+    <body>
+        <p id="title">Moon Jumper</p>
+        <div id="screen">
+            <div id="moon"></div>
+            <div id="topWormHole"></div>
+            <div id="bottomWormHole"></div>
+            <img src="/images/Custom%20game%20player.png" alt="" id="spaceMan"/>
+        </div>
+        <div id="buttonConsole">
+            <div class="button" onclick="jump()">
+                <p class="bigButtonText">Jump</p>
+            </div>
+            <div class="button" onclick="rotate('spaceMan', 30)">
+                <p class="bigButtonText">Rotate</p>
+            </div>
+            <div class="miniButton" onclick="playSound1()">
+                <p class="littleButtonText">In Space</p>
+            </div>
+            <div class="miniButton" onclick="playSound2()">
+                <p class="littleButtonText">My House</p>
+            </div>
+            <div class="miniButton" onclick="playSound3()">
+                <p class="littleButtonText">Aeiou</p>
+            </div>
+        </div>
+    </body>
+</html>

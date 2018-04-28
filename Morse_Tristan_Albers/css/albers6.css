@@ -1,0 +1,192 @@
+/*
+Tristan Morse
+Wednesday, March 7th, 2018
+NM 231
+*/
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+}
+
+#container {
+    margin: 0 auto;
+    width: 1000px;
+    height: 1800px;
+}
+
+.caseL {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: -100px;
+    top: 50px;
+    width: 300px;
+    height: 300px;
+    transform: rotate(35deg);
+}
+
+
+.caseR {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: -100px;
+    top: 50px;
+    width: 300px;
+    height: 300px;
+    transform: rotate(-25deg);
+}
+
+.disc {
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.cd1 {
+    background-color: #d4d4d4;
+}
+
+.cd2 {
+    background-color: #c2c2c2;
+}
+
+.cd3 {
+    background-color: #a1a1a1;
+}
+
+.cd4 {
+    background-color: #787878;
+}
+
+.cd5 {
+    background-color: #616161;
+}
+
+.cd6 {
+    background-color: #4f4f4f;
+}
+
+.cd7 {
+    background-color: #383838;
+}
+
+.discHole1 {
+    margin: 0 auto;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    top: 55px;
+    background-color: #ba9bd4;
+    border-radius: 50%;
+}
+
+.discHole2 {
+    margin: 0 auto;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    top: 55px;
+    background-color: #9e75c2;
+    border-radius: 50%;
+}
+
+.discHole3 {
+    margin: 0 auto;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    top: 55px;
+    background-color: #703ea1;
+    border-radius: 50%;
+}
+
+.discHole4 {
+    margin: 0 auto;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    top: 55px;
+    background-color: #430379;
+    border-radius: 50%;
+}
+
+.discHole5 {
+    margin: 0 auto;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    top: 55px;
+    background-color: #350061;
+    border-radius: 50%;
+}
+
+.discHole6 {
+    margin: 0 auto;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    top: 55px;
+    background-color: #2c0250;
+    border-radius: 50%;
+}
+
+.discHole7 {
+    margin: 0 auto;
+    position: relative;
+    width: 75px;
+    height: 75px;
+    top: 55px;
+    background-color: #1f0538;
+    border-radius: 50%;
+}
+
+.disc1 {
+    background-color: #ba9bd4;
+}
+
+.disc2 {
+    background-color: #9e75c2;
+}
+
+.disc3 {
+    background-color: #703ea1;
+}
+
+.disc4 {
+    background-color: #430379;
+}
+
+.disc5 {
+    background-color: #350061;
+}
+
+.disc6 {
+    background-color: #2c0250;
+}
+
+.disc7 {
+    background-color: #1f0538;
+}
+
+.title {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.caseL:hover {
+    top: -40px;
+}
+
+.caseR:hover {
+    top: -40px;
+}
