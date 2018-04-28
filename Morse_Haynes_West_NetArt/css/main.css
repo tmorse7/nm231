@@ -1,0 +1,93 @@
+/*
+Pizza Party Net Art Project
+Tristan Morse, Ben Haynes, and Carleigh West
+Tuesday, February 20th, 2018
+*/
+
+body {
+    background-color: #8C351B;
+}
+
+h1 {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50pt;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+.qa {
+    background-color: black;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 50%;
+    display: block;
+    border: solid;
+    border-color: white;
+}
+
+.qa p {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: lawngreen;
+    font-size: 13pt;
+    line-height: 1.4;
+}
+
+#bio {
+    background-color: black;
+    width: 40%;
+    border: solid;
+    border-color: white;
+    position: relative;
+    float: right;
+}
+
+#bio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 300px;
+    border: solid;
+    border-color: white;
+}
+
+#bio p {
+    margin-left: 15px;
+    margin-right: 10px;
+    font-family: 'Press Start 2P', cursive;
+    color: lawngreen;
+    font-size: 13pt;
+    line-height: 1.4;
+}
+
+.img {
+    width: 40%;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#video {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#main {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 15pt;
+}
